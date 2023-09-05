@@ -1,0 +1,114 @@
+:root {
+    --cor-primaria: #252525;
+    --cor-secundaria: #EE964B;
+    --cor-terciaria: #F3F0E3;
+}
+
+body {
+    background-color: var(--cor-secundaria);
+    margin: 0;
+    padding: 50px;
+}
+
+.tela-login {
+    text-align: center;
+    margin: 100px auto;
+    width: 350px;
+    background-color: var(--cor-primaria);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px var(--cor-primaria);
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: var(--cor-terciaria);
+    text-align: center;
+    font-size: 220%;
+    font-family: sans-serif;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid var(--cor-secundaria);
+}
+
+
+.texto-user {
+    text-align: left;
+    color: var(--cor-terciaria);
+    font-family: sans-serif;
+    margin-bottom: -10px;
+}
+
+.user {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--cor-terciaria);
+}
+
+.texto-senha {
+    text-align: left;
+    color: var(--cor-terciaria);
+    font-family: sans-serif;
+    margin-bottom: -10px;
+}
+
+.senha {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--cor-terciaria);
+}
+
+.esqueceu-senha {
+    text-align: right;
+    color: var(--cor-secundaria);
+    font-size: 80%;
+    margin-top: -15px;
+}
+
+.lembrar {
+    position: relative;
+    left: -10px;
+    margin-top: -10px;
+    margin-right: 300px;
+}
+
+.texto-lembrar {
+    position: relative;
+    left: -100px;
+    margin-top: -15px;
+    color: var(--cor-terciaria);
+    font-size: 80%;
+}
+
+.cadastro {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--cor-secundaria);
+    font-size: 80%;
+}
+
+.entrar {
+    background-color: var(--cor-secundaria);
+    font-size: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    color: var(--cor-terciaria);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.entrar:hover {
+    cursor: pointer;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+}

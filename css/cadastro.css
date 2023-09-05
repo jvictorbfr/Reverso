@@ -1,0 +1,115 @@
+:root {
+    --cor-primaria: #252525;
+    --cor-secundaria: #EE964B;
+    --cor-terciaria: #F3F0E3;
+
+    --color-text-main-1: rgb(21, 21, 21);
+    --color-text-aside-1: rgb(162, 162, 162);
+
+    --ratio-1: 15px;
+    --ratio-2: 30px;
+
+    --rounded-1: 4px;
+    --rounded-2: 8px;
+    --rounded-total: 999px;
+}
+
+body {
+    background-color: var(--cor-primaria);
+    margin: 0;
+    padding: 50px;
+}
+
+.tela-registro {
+    margin: 100px auto;
+    width: 350px;
+    background-color: var(--cor-secundaria);
+    padding: var(--ratio-1);
+    border-radius: var(--rounded-2);
+    box-shadow: 0px 0px var(--rounded-2) var(--cor-secundaria);
+}
+
+.tela-registro__titulo {
+    color: var(--cor-primaria);
+    text-align: center;
+}
+
+.tela-registro__texto {
+    text-align: center;
+    color: var(--cor-terciaria);
+}
+
+.linha-divisoria {
+    border: none;
+    border-top: 1px solid var(--cor-terciaria);
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tela-registro__nome {
+    padding: 12px;
+    margin-top: var(--ratio-1);
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--cor-terciaria);
+    border-radius: var(--rounded-1);
+    background-color: var(--cor-terciaria);
+}
+
+.register-container__username {
+    padding: 12px;
+    margin-top: var(--rounded-2);
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--cor-terciaria);
+    border-radius: var(--rounded-1);
+    background-color: var(--cor-terciaria)
+}
+
+.register-container__name:focus,
+.register-container__password:focus,
+.register-container__username:focus {
+    outline: 2px solid var(--cor-primaria);
+    outline-offset: -2px;
+}
+
+
+.register-container__password {
+    padding: 12px;
+    margin-top: var(--rounded-2);
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--cor-terciaria);
+    border-radius: var(--rounded-1);
+    background-color: var(--cor-terciaria);
+}
+
+.register-container__login {
+    color: var(--cor-primaria);
+    font-size: 80%;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.register-container__button-create {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: var(--cor-primaria);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: var(--rounded-2);
+    cursor: pointer;
+}
+
+.register-container__button-create:hover {
+    cursor: pointer;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-primaria);
+}

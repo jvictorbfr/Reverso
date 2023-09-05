@@ -1,0 +1,28 @@
+
+:root{
+
+    --cor-primaria: #252525;
+    --cor-secundaria: #EE964B;
+    --cor-terciaria: #F3F0E3;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--cor-primaria);
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+main{
+    background: var(--cor-primaria);
+    height: 92vh;
+    }
+
+section{
+    padding: 70px 0px 0px 0px;
+    }

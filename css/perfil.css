@@ -1,0 +1,124 @@
+body {
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #252525;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    min-height: 100vh;
+    font-weight: 600;
+    font-style: normal;
+    overflow-x: hidden;
+    transform: translateX(8px);
+}
+
+#menu-p {
+    background-color: #ee964b;
+}
+
+#menu-p ul li img {
+    position: relative;
+    left: -260px;
+    bottom: -60px;
+}
+
+#menu-p ul li {
+    position: relative;
+    right: -240px;
+    top: -60px;
+    display: inline;
+    padding: 30px;
+    text-decoration: none;
+}
+
+#menu-p ul li:last-of-type {
+    position: relative;
+    right: -540px;
+}
+
+#menu-p ul li a {
+    color: #F3F9E3;
+    text-decoration: none;
+
+}
+
+#menu-p ul li a:hover {
+    color: #115B2B;
+}
+
+.profile-image {
+    position: relative;
+    top: 10px;
+    left: 100px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin: 20px;
+    box-shadow: 0px 0px 30px #ee964b;
+}
+
+h2 {
+    position: relative;
+    top: -15px;
+    left: 120px;
+    color: #F3F9E3;
+    font-size: 200%;
+}
+
+p {
+    position: relative;
+    top: -40px;
+    left: 120px;
+    color: grey;
+    font-size: 150%;
+}
+
+#bio {
+    position: relative;
+    top: -10px;
+    left: 120px;
+    border-radius: 5%;
+    border: none;
+    color: #F3F9E3;
+    background-color: #252525;
+    box-shadow: 0px 0px 20px #ee964b;
+}
+
+.text-avaliacoes {
+    position: relative;
+    top: -450px;
+    left: 570px;
+    color: #F3F9E3;
+    font-size: 200%;
+}
+
+#avaliacoes {
+    position: relative;
+    top: -458px;
+    left: 590px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #F3F9E3;
+    color: black;
+    font-size: 90%;
+}
+
+.text-favoritos {
+    position: relative;
+    top: -220px;
+    left: 570px;
+    color: #F3F9E3;
+    font-size: 200%;
+}
+
+#favoritos {
+    position: relative;
+    top: -225px;
+    left: 590px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    background-color: #F3F9E3;
+    color: black;
+    font-size: 90%;
+}
