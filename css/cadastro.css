@@ -2,16 +2,6 @@
     --cor-primaria: #252525;
     --cor-secundaria: #EE964B;
     --cor-terciaria: #F3F0E3;
-
-    --color-text-main-1: rgb(21, 21, 21);
-    --color-text-aside-1: rgb(162, 162, 162);
-
-    --ratio-1: 15px;
-    --ratio-2: 30px;
-
-    --rounded-1: 4px;
-    --rounded-2: 8px;
-    --rounded-total: 999px;
 }
 
 body {
@@ -24,14 +14,15 @@ body {
     margin: 100px auto;
     width: 350px;
     background-color: var(--cor-secundaria);
-    padding: var(--ratio-1);
-    border-radius: var(--rounded-2);
-    box-shadow: 0px 0px var(--rounded-2) var(--cor-secundaria);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px var(--cor-secundaria);
 }
 
 .tela-registro__titulo {
     color: var(--cor-primaria);
     text-align: center;
+    text-decoration: none;
 }
 
 .tela-registro__texto {
@@ -52,43 +43,43 @@ form {
 
 .tela-registro__nome {
     padding: 12px;
-    margin-top: var(--ratio-1);
+    margin-top: 15px;
     border-width: 2px;
     border-style: solid;
     border-color: var(--cor-terciaria);
-    border-radius: var(--rounded-1);
+    border-radius: 4px;
     background-color: var(--cor-terciaria);
 }
 
-.register-container__username {
+.tela-registro__apelido {
     padding: 12px;
-    margin-top: var(--rounded-2);
+    margin-top: 8px;
     border-width: 2px;
     border-style: solid;
     border-color: var(--cor-terciaria);
-    border-radius: var(--rounded-1);
+    border-radius: 4px;
     background-color: var(--cor-terciaria)
 }
 
-.register-container__name:focus,
-.register-container__password:focus,
-.register-container__username:focus {
+.tela-registro__nome:focus,
+.tela-registro__senha:focus,
+.tela-registro__apelido:focus {
     outline: 2px solid var(--cor-primaria);
     outline-offset: -2px;
 }
 
 
-.register-container__password {
+.tela-registro__senha {
     padding: 12px;
-    margin-top: var(--rounded-2);
+    margin-top: 8px;
     border-width: 2px;
     border-style: solid;
     border-color: var(--cor-terciaria);
-    border-radius: var(--rounded-1);
+    border-radius: 4px;
     background-color: var(--cor-terciaria);
 }
 
-.register-container__login {
+.tela-registro__login {
     color: var(--cor-primaria);
     font-size: 80%;
     margin-top: 20px;
@@ -96,7 +87,7 @@ form {
     text-decoration: none;
 }
 
-.register-container__button-create {
+.tela-registro__criar {
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -104,11 +95,11 @@ form {
     border: none;
     color: white;
     font-weight: bold;
-    border-radius: var(--rounded-2);
+    border-radius: 8px;
     cursor: pointer;
 }
 
-.register-container__button-create:hover {
+.tela-registro__criar:hover {
     cursor: pointer;
     background-color: var(--cor-terciaria);
     color: var(--cor-primaria);

@@ -5,106 +5,112 @@
 }
 
 body {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
     margin: 0;
     padding: 50px;
+    overflow-y: hidden;
 }
 
 .tela-login {
-    text-align: center;
     margin: 100px auto;
     width: 350px;
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0px 0px 20px var(--cor-primaria);
+    box-shadow: 0px 0px 8px var(--cor-secundaria);
 }
 
-.login {
+h1 {
+    color: var(--cor-primaria);
+    text-align: center;
+}
+
+.linha-divisoria {
+    border: none;
+    border-top: 1px solid var(--cor-terciaria);
+    margin: 10px 0;
+}
+
+form {
     display: flex;
     flex-direction: column;
 }
 
-h1 {
-    color: var(--cor-terciaria);
-    text-align: center;
-    font-size: 220%;
-    font-family: sans-serif;
-    margin-top: 15px;
-    margin-bottom: 60px;
-    border-bottom: 1px solid var(--cor-secundaria);
-}
-
 
 .texto-user {
+    margin-top: 8px;
+    margin-bottom: -8px;
     text-align: left;
     color: var(--cor-terciaria);
     font-family: sans-serif;
-    margin-bottom: -10px;
 }
 
 .user {
-    padding: 8px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: none;
+    padding: 12px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--cor-terciaria);
+    border-radius: 4px;
     background-color: var(--cor-terciaria);
 }
 
 .texto-senha {
+    margin-bottom: -8px;
     text-align: left;
     color: var(--cor-terciaria);
     font-family: sans-serif;
-    margin-bottom: -10px;
 }
 
 .senha {
-    padding: 8px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: var(--cor-terciaria);
+    padding: 12px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--cor-terciaria);
+    border-radius: 4px;
+    background-color: var(--cor-terciaria)
 }
 
 .esqueceu-senha {
-    text-align: right;
-    color: var(--cor-secundaria);
+    color: var(--cor-terciaria);
     font-size: 80%;
-    margin-top: -15px;
+    margin-top: -16px;
+    text-align: right;
+    text-decoration: none;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
 }
 
 .lembrar {
-    position: relative;
-    left: -10px;
-    margin-top: -10px;
-    margin-right: 300px;
+    margin-right: 4px;
 }
 
 .texto-lembrar {
-    position: relative;
-    left: -100px;
-    margin-top: -15px;
     color: var(--cor-terciaria);
+    margin: 0;
     font-size: 80%;
 }
 
 .cadastro {
-    margin-top: 30px;
-    margin-bottom: 20px;
-    text-align: center;
-    color: var(--cor-secundaria);
+    color: var(--cor-primaria);
     font-size: 80%;
+    margin-top: 8px;
+    text-align: center;
+    text-decoration: none;
 }
 
 .entrar {
-    background-color: var(--cor-secundaria);
-    font-size: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    background-color: var(--cor-primaria);
     border: none;
-    color: var(--cor-terciaria);
+    color: white;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 .entrar:hover {
